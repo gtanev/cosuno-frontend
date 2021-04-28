@@ -1,0 +1,16 @@
+$primary-custom: #364FB0;
+$light-custom: whitesmoke;
+
+$theme-colors: (
+    "primary": $primary-custom,
+    "light": $light-custom
+);
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+
+:export {
+  primary: $primary-custom;
+  secondary: $secondary;
+  light: $light-custom;
+  dark: $dark;
+}
